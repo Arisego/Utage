@@ -70,7 +70,7 @@
 			<!-- #Info Begin -->
 			<div class="row-fluid" id="ccinfo">
 				<div id="qrimage">
-					<img alt="本页二维码" class="img-polaroid" src="http://api.qrserver.com/v1/create-qr-code/?size=100x100&data=<?php the_permalink() ?>" >
+					<img alt="CC" class="img-polaroid" src="http://blog.ch-wind.com/wp-content/themes/utage/img/sa.gif" >
 				</div>
 				<div id="cctext">
 					<b>本文链接地址:</b> <a href="<?php the_permalink() ?>"><i><?php the_title(); ?></i></a><br>
