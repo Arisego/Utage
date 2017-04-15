@@ -1,0 +1,330 @@
+﻿/*
+*	主CSS文件
+*/
+
+/* 额外修复 */
+body{
+color: #333;  
+font: normal 14px/24px "Microsoft Yahei","冬青黑体简体中文 w3","宋体";
+overflow-y: scroll;
+word-break: break-word;
+}
+.container{min-width: 313px;}
+a {color: #425854;}
+a:link { text-decoration: none;}
+a:active { text-decoration:none;}
+a:focus { outline:none; -moz-outline:none;}
+a:hover { text-decoration:none; color: #25585A;} 
+a:visited { text-decoration: none;}
+@media (min-width: 768px){
+	.container, .navbar-static-top .container, .navbar-fixed-top .container, .navbar-fixed-bottom .container {
+		width: 90%;
+		max-width: 1600px;
+	}
+}
+
+/* Misc */
+.d-pad{
+	margin-bottom: 10px; 
+}
+.small{
+	font-size: small;
+}
+.normel-back{
+	background-color: transparent;
+	color: #333;
+	border: none;
+}
+/* Wp专有设定 */
+.entry-content h1,.entry-content .h1{font-size:19px;}
+.entry-content h2, .entry-content .h2{border-bottom: 1px solid #D2D0D0;padding-bottom:5px;font-size:17px;}
+.entry-content h3, .entry-content .h3{border-bottom: 1px solid #ECECEC;font-size:16px;}
+.headcontainer{
+	border-bottom: 1px solid #E6D9D1;
+	box-shadow: 0px 2px 2px rgba(0,0,0,0.20);
+	min-height: 268px;
+}
+#masthead{
+	min-height: 268px;
+}
+#main{
+	padding-top: 16px;
+}
+.logo-wrap{
+	padding-left: 20px;
+	margin-top: 54px;
+}
+#site-title {
+    font-size: 45px;
+    font-family: 14px Arial,Helvetica,sans-serif;
+    font-weight: normal;
+    padding-bottom: 0px;
+}
+#site-title a {
+    line-height: 54px;
+	color: #B4898C;
+}
+h2#site-description {
+    font: 14px Arial,Helvetica,sans-serif;
+    color: #000;
+    padding: 8px 10px 0px;
+}
+.header-main{
+	min-height: 208px;
+	height: 100%;
+	padding-top: 8px;
+	padding-left: 18px;	
+}
+
+.header-main h1{
+	text-shadow: 0px 1px 0px grey;
+	font-size: 24px;
+	line-height: 1.1em;
+}
+.header-main h2{
+	font-size: 18px;
+	line-height: 1.0em;	
+}
+.primary-nav{
+background-image: none;
+background-color: transparent !important;
+z-index: 1000;
+box-shadow: none !important;
+border: none !important;
+filter: none !important;
+}
+.navbar .nav > .active > a, .navbar .nav > .active > a:hover, .navbar .nav > .active > a:focus {
+  background-color: #E9EEEF !important;
+  color: #707092 !important; 
+}
+#content article{
+	border-radius: 0px;
+	border-bottom: #DACDAD  solid 1px;
+	box-shadow: none !important;
+}
+.entry-header{
+	color: #4E5156;
+	margin-bottom: 1em;
+}
+.entry-header h1{
+	margin-bottom: 2px;
+	padding-bottom: 8px;
+	text-shadow: 0px 1px 0px grey;
+	font-size: 20px;
+	line-height: 1.0em;	
+	color: #619B91;
+}
+.entry-header a{
+	color: #619B91;
+}
+.entry-title{
+	border-bottom: 1px solid #F1E7E1;
+}
+.entry-meta{
+	padding-left: 1em;
+	font-size: 12.5px;
+	color: grey;
+}
+.entry-meta .meta-cell{
+	padding-right: 0.5em;
+}
+.entry-meta i{
+	padding-right: 0.2em;
+	color: grey;
+}
+.entry-meta a{
+	color: grey;
+}
+.single-main a{
+	color: #1A82C7;
+}
+.site-content  p{
+	text-indent: 2em !important;
+	font-size: 14px;
+	line-height: 24px;
+	letter-spacing: 0.5px;
+}
+.ds-thread p{
+	text-indent: 0em !important;
+}
+.pager span{
+	color: grey;
+}
+.commentlist{
+	text-align: left;
+}
+.commentlist li{ 
+list-style: none; 
+} 
+.comment-body{
+border-bottom: 1px solid #DED0C7;
+margin-bottom: 8px;
+}
+#comments legend{
+font-size: 18px;
+line-height: 0.8em;
+padding-bottom: 6px;
+}
+#respond h3{
+font-size: 18px;
+line-height: 0.8em;
+border-bottom: 1px solid #DED0C7;
+padding-bottom: 6px;
+color: #619B91;
+}
+#respond input{
+margin-left: 2em;
+}
+#respond textarea{
+margin-left: 2em;
+min-width: 200px;
+width: 75%;
+max-width: 90%;
+}
+.widget{
+margin-bottom: 22px;
+}
+.widget h3{
+margin-bottom: 6px;
+padding-bottom: 12px;
+text-shadow: 0px 1px 0px grey;
+font-size: 18px;
+line-height: 0.8em;
+border-bottom: 1px solid #F1E7E1;
+color: #619B91;
+}
+
+.cyinfo legend{
+border-bottom: 1px solid #B75555;
+}
+.comments .well, .sidebar-inner .well{
+	border: none !important;
+	background-color: transparent !important;
+}
+.tag-lists{
+padding-top: 16px;
+padding-bottom: 18px;
+}
+.tag-lists span{
+padding-left: 6px;
+padding-right: 8px;
+}
+.tag-lists i{
+padding-left: 6px;
+}
+#ccinfo{
+margin:5px 10px 0px 0px;width: 100%;height=130px;
+}
+#qrimage{
+width=120px; float:left;
+}
+#qrimage img{
+height: 100px; width: 100px;
+}
+#cctext{
+margin-left:8px;width=858px;float:left;
+}
+/* Wp专有设定结束 */
+
+.contents{
+	text-indent: 2em;word-break:break-all;
+}
+.banner-img{
+margin-bottom: 18px;
+background-position: 50% 50%;
+}
+
+/* Foot底部样式 */
+.footer{
+	color: gray;
+	font-size: small;
+	text-align: center;
+}
+/* 头部样式 */
+.navbar .nav > .active > a, .navbar .nav > .active > a:hover, .navbar .nav > .active > a:focus {
+    background-color: #E0F9FB;
+	color: #7C7CCC;
+}
+.cm_top-navs{
+background-image: linear-gradient(to bottom, #E3E8EC, #DCEBFF);
+background-repeat: repeat-x;
+background-color: #DCEBFF !important;
+height: 50px;
+z-index: 1000;
+box-shadow: 1px 2px 2px rgba(0,0,0,0.20);
+}
+.nav-collapse .nav{
+z-index: 1000;
+}
+.navbar .brand {
+    color: #F5F0E7;
+    text-shadow: 0px 1px 0px #44C0C5;
+	background-color: #4CB2D0;
+}
+.nav-collapse, .nav-collapse.collapse {
+  background-color: #E0E9F5;
+  z-index: 1000;
+}
+@media (max-width: 979px){
+	.navbar .container {
+	  width: auto;
+	  padding: 0;
+	  /*padding-left: 20px;*/
+	  z-index: 1000;
+	}
+}
+
+.cm_top-navs-cont{
+	margin-top: 5px;
+	z-index: 1000;
+}
+
+.page-header{
+	background-color: #C7ECDE;
+	padding-left: 6px;
+	padding-top: 8px;
+	padding-bottom: 2px; 
+	border-left: rgb(73, 147, 219) 4px solid;
+	border-bottom: none;
+}
+.page-header h3{
+	line-height: 26px;
+}
+.span6 .span8{
+	box-shadow: 0 0 5px #c7c5c5;
+}
+
+/* 后台样式 */
+.sidebar {
+	padding-top:30px;
+}
+@media(max-width:767px){
+   .affix {
+     position: static;
+     width: auto;
+     top: 0;
+    }
+}
+
+
+/* 单内容页面 */
+.lmdiv{
+	min-height: 400px;
+	text-align: center;
+}
+.lmcont{
+	margin-top: 88px;
+}
+.biglogo{
+	font-size: 90px;
+	line-height: 90px;
+}
+
+/* 旅梦人 */
+#tertiary{
+	padding-top: 20px;
+}
+.entry-content h1,.entry-content h2,.entry-content h3,.entry-content h4,.entry-content h5,.entry-content h6 {
+	text-indent: 28px !important;
+}
+
