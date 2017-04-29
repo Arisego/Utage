@@ -25,21 +25,33 @@
 		</footer><!-- #footer -->
 	</div><!-- #page -->
 	<?php wp_footer(); ?>
-	<script type="text/javascript" src="http://api.hitokoto.us/rand?encode=js&charset=utf-8"></script>
 
-	<div style="display: none;" id="hitokoto"><script>hitokoto()</script></div>
 	<script>
 		var ggv;
 		$('.disabled a, .active a').on('click', function(e) {
 			e.preventDefault();
 		});
 		
-		$('#hkt-wait').html("");
-		if(jQuery.isFunction(hitokoto)){
-			$('#hkt-wait').append($('.hitokoto'));
-		}else{
-			$('#hkt-wait').append('<b>获取数据失败了&gt;&lt;</b>');
-		}
+		$(document).ready(function() {
+			function showpanel() {
+				$.get(
+						'<?php echo get_template_directory_uri()."/hitokoto/hitokoto.php" ?>',
+						'',
+						function(data){
+							if(data.length == 0){
+								$('#hkt-wait').html('<b>获取数据失败了&gt;&lt;</b>');
+								return false;
+							}else{
+								$('#hkt-wait').html("<b>"+data+"</b>");
+								return true;
+							}
+						}
+				);
+			}
+
+			setTimeout(showpanel, 10);	
+		});
+
 
 		function AdwFanliModel() {
 			var self = this;
