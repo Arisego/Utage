@@ -34,15 +34,14 @@
 		
 		$(document).ready(function() {
 			function showpanel() {
-				$.get(
+				$.getJSON(
 						'<?php echo get_template_directory_uri()."/hitokoto/hitokoto.php" ?>',
-						'',
 						function(data){
 							if(data.length == 0){
 								$('#hkt-wait').html('<b>获取数据失败了&gt;&lt;</b>');
 								return false;
 							}else{
-								$('#hkt-wait').html("<b>"+data+"</b>");
+								$('#hkt-wait').html("<b title='来自:"+ (data.source.length==0?'佚名':data.source) +"'>"+data.hitokoto+"</b>");
 								return true;
 							}
 						}
