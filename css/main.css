@@ -328,3 +328,63 @@ z-index: 1000;
 	text-indent: 28px !important;
 }
 
+/* 评论框 */
+.comment-author-link
+{
+	font-size: 16px;
+}
+time.comment-meta-item
+{
+	color: #a0a2a1;
+	font-size: 12px;
+}
+.media-body > .breadcrumb
+{
+	background-color: transparent !important;
+	padding: 0px 6px !important;
+	margin: 0px !important;
+}
+.comment-author-info
+{
+	padding-top: 6px;
+	line-height:110%;
+}
+.comment_text > p
+{
+	text-indent: 0px !important;
+	padding-top: 6px;
+	padding-left: 2px;
+}
+article.comment
+{
+	padding: 8px 0px;
+	border-radius: 14px !important;
+    border-bottom: #ebebeb solid 1px !important;
+}
+.comment-edit-link
+{
+	padding-left: 5px;
+}
+.comment-icon
+{
+	margin-top: 3px;
+}
+.commentlist li {
+    padding-right: 9px;
+}
+.comments-list > .depth-2
+{
+	padding-left: 30px;
+}
+.comments-list > .depth-3
+{
+	padding-left: 30px;
+}
+.comments-list > .depth-4
+{
+	padding-left: 30px;
+}
+.comments-list > .depth-5
+{
+	padding-left: 30px;
+}

@@ -184,5 +184,6 @@ function dbt_custom_feed( $content ){
 
 //~ 载入 Bootstrap 菜单类
 require_once( get_template_directory() . '/inc/bootstrap_navwalker.php' );
+require_once( get_template_directory() . '/inc/comment_walker.php' );
 
 ?>

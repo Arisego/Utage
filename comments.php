@@ -27,7 +27,7 @@
             </div> <!-- .navigation -->
     
             <ul class="commentlist">
-                <?php wp_list_comments();?>
+                <?php wp_list_comments(array('walker' => new comment_walker()));?>
             </ul>
             
              <div class="navigation clearfix">
