@@ -388,3 +388,9 @@ article.comment
 {
 	padding-left: 30px;
 }
+
+/***/
+.well
+{
+	margin-bottom: 0px !important;
+}
