@@ -224,6 +224,9 @@ height: 100px; width: 100px;
 #cctext{
 margin-left:8px;width=858px;float:left;
 }
+#crtext{
+margin-right:8px;float:right;
+}
 /* Wp专有设定结束 */
 
 .contents{
@@ -393,4 +396,26 @@ article.comment
 .well
 {
 	margin-bottom: 0px !important;
+}
+
+.blog-info
+{
+	padding-right: 20px;
+}
+.info-icon
+{
+    margin-top: 3px;
+}
+.donate-img
+{
+	width: 100px; height: 100px;
+}
+.blog-infos
+{
+	min-height: 166px;
+	border-top: solid 1px #f2f2f2;
+}
+.tab-content
+{
+	padding-top: 10px;
 }

@@ -66,20 +66,47 @@
 					echo $output;
 				?>
 			</div>
+
 			
 			<!-- #Info Begin -->
 			<div class="row-fluid" id="ccinfo">
-				<div id="qrimage">
-					<img alt="CC" class="img-polaroid" src="http://blog.ch-wind.com/wp-content/themes/utage/img/sa.gif" >
-				</div>
-				<div id="cctext">
-					<b>本文链接地址:</b> <a href="<?php the_permalink() ?>"><i><?php the_title(); ?></i></a><br>
-					<b>本博客所有内容遵循CC BY-NC-SA 3.0协议:</b><br>
-					<a rel="nofollow" target="_blank" href="http://creativecommons.org/licenses/by-nc-sa/3.0/cn/"><img src="http://blog.ch-wind.com/wp-content/uploads/2013/09/88x31.png"></a><br>
-					<i>如有转载，请注明出处。</i>
-				</div>
+			
+				<div class="tabbable tabs-left blog-infos">
+				  <ul class="nav nav-tabs">
+					<li class="active"><a href="#lA" data-toggle="tab"><i class="icon-info-sign info-icon"></i>&nbsp;<span>关于</span></a></li>
+					<li class=""><a href="#lB" data-toggle="tab"><i class="icon-gift info-icon"></i>&nbsp;<span>赞赏</span></a></li>
+					<li class=""><a href="#lC" data-toggle="tab"><i class="icon-envelope info-icon"></i>&nbsp;<span>联系</span></a></li>
+				  </ul>
+				  <div class="tab-content">
+					<div class="tab-pane blog-info active" id="lA">
+					  	如果本文对你有帮助，欢迎在下方留言，你的肯定是对我最好的鼓励。<br>
+						如果你愿意，也可以考虑请我喝杯咖啡，点击左方<span class="label label-success">赞赏</span>继续操作<br>
+					</div>
+					<div class="tab-pane blog-info" id="lB">
+						<span>感谢你的支持，用微信扫描下方赞赏码即可~</span>
+						<div class="row-fluid">
+							<ul class="thumbnails">
+							  <li class="span3 offset4">
+								<div alt="微信赞赏码" class="thumbnail">
+								  <img class="donate-img" alt="微信赞赏码" src="<?php echo get_template_directory_uri(); ?>/img/donate.jpg">
+								</div>
+							  </li>
+							</ul>
+						  </div>
+					</div>
+					<div class="tab-pane blog-info " id="lC">
+						联系方式请参见右边顶部哦~
+					</div>
+				  </div>
+				</div>			
 			</div>
-			<!-- #Info End -->			
+			<!-- #Info End -->		
+			<div class="row-fluid" id="ccinfo">
+				<div class="text-right">			
+					<span class="muted">本博客所有内容遵循<a rel="nofollow" target="_blank" href="http://creativecommons.org/licenses/by-nc-sa/3.0/cn/">CC BY-NC-SA 3.0</a>协议，</span>
+					<span class="muted">如有转载，请注明出处。</span>
+				</div>
+			</div>			
 			
 		</div>
 		<?php endif ?>
