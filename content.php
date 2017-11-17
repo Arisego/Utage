@@ -69,37 +69,7 @@
 
 			
 			<!-- #Info Begin -->
-			<div class="row-fluid" id="ccinfo">
-			
-				<div class="tabbable tabs-left blog-infos">
-				  <ul class="nav nav-tabs">
-					<li class="active"><a href="#lA" data-toggle="tab"><i class="icon-info-sign info-icon"></i>&nbsp;<span>关于</span></a></li>
-					<li class=""><a href="#lB" data-toggle="tab"><i class="icon-gift info-icon"></i>&nbsp;<span>赞赏</span></a></li>
-					<li class=""><a href="#lC" data-toggle="tab"><i class="icon-envelope info-icon"></i>&nbsp;<span>联系</span></a></li>
-				  </ul>
-				  <div class="tab-content">
-					<div class="tab-pane blog-info active" id="lA">
-					  	如果本文对你有帮助，欢迎在下方留言，你的肯定是对我最好的鼓励。<br>
-						如果你愿意，也可以考虑请我喝杯咖啡，点击左方<span class="label label-success">赞赏</span>继续操作<br>
-					</div>
-					<div class="tab-pane blog-info" id="lB">
-						<span>感谢你的支持，用微信扫描下方赞赏码即可~</span>
-						<div class="row-fluid">
-							<ul class="thumbnails">
-							  <li class="span3 offset4">
-								<div alt="微信赞赏码" class="thumbnail">
-								  <img class="donate-img" alt="微信赞赏码" src="<?php echo get_template_directory_uri(); ?>/img/donate.jpg">
-								</div>
-							  </li>
-							</ul>
-						  </div>
-					</div>
-					<div class="tab-pane blog-info " id="lC">
-						联系方式请参见右边顶部哦~
-					</div>
-				  </div>
-				</div>			
-			</div>
+
 			<!-- #Info End -->		
 			<div class="row-fluid" id="ccinfo">
 				<div class="text-right">			
