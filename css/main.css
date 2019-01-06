@@ -419,3 +419,13 @@ article.comment
 {
 	padding-top: 10px;
 }
+.comment-form-cookies-consent input
+{
+	margin-top: 0px;
+	margin-left: 0.1em !important;
+	margin-right: 0.5em;
+}
+.comment-form-cookies-consent label
+{
+	display: inline;
+}
