@@ -50,13 +50,6 @@
 
 			setTimeout(showpanel, 10);	
 		});
-
-
-		function AdwFanliModel() {
-			var self = this;
-		}
-		ggv = new AdwFanliModel();
-		ko.applyBindings(ggv);
 	</script>
 </body>
 </html>
