@@ -109,7 +109,6 @@ function utage_scripts_styles() {
 	wp_enqueue_script('utage-underscore', get_template_directory_uri() . '/js/underscore-min.js', array(), '1.7.0', false );
 	wp_enqueue_script('utage-jquery', get_template_directory_uri() . '/js/jquery-1.11.2.min.js', array(), '1.11.2', false );
 	wp_enqueue_script('utage-bootstrap', get_template_directory_uri() . '/js/bootstrap.min.js', array(), '3.3.4', false );
-	wp_enqueue_script('utage-knockout', get_template_directory_uri() . '/js/knockout-3.3.0.js', array(), '3.3.0', false );
 	
 	/*--[if lte IE 6]-*/
 		wp_enqueue_script('utage-bsie', get_template_directory_uri() . '/js/bootstrap-ie.js', array(), '1.0.4', false );
