@@ -3,7 +3,7 @@ function hitokoto()
 {
 	mt_srand((double)microtime()*1000);
 	// 在这里设置最大文件名
-    $data  = dirname(__FILE__) . '/hito'.rand(0, 4).'.koto';
+    $data  = dirname(__FILE__) . '/hito'.rand(0, 5).'.koto';
     $json  = file_get_contents($data);
 	
     $array = json_decode($json, true);

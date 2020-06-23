@@ -15,11 +15,11 @@
 		<br class="clearfloat" />
 		<footer class="footer">
 			<div class="container normel-back" style="width: 100%;padding-top: 18px;color: gray;">
-				<p>Copyright © 2011-2018 <?php bloginfo( 'name' ); ?>. All Rights Reserved.</p>
+				<p>Copyright © 2011-2020 <?php bloginfo( 'name' ); ?>. All Rights Reserved.</p>
 				<ul class="inline">
 				  <li>Powered By: <a href="http://wordpress.org/">WordPress</a></li>
 				  <li class="muted">|</li>
-				  <li>Theme: <a href="#">Utage</a></li>
+				  <li>Theme: <a href="https://github.com/Arisego/Utage">Utage</a></li>
 				</ul>
 			</div>
 		</footer><!-- #footer -->

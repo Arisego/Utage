@@ -14,5 +14,5 @@
 	$image = $imglist[array_rand($imglist)];
 	//输出结果 
      //readfile($img_folder.'/'.$image);
-	 header("Location: https://blog.ch-wind.com/wp-content/themes/utage/randomimgs/".$image);
+	 header("Location: https://blog.ch-wind.com/wp-content/themes/Utage/randomimgs/".$image);
 ?>
