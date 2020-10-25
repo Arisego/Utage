@@ -429,3 +429,10 @@ article.comment
 {
 	display: inline;
 }
+
+article ul {
+    padding-left: 30px;
+}
+article ol {
+    padding-left: 30px;
+}
