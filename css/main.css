@@ -237,6 +237,12 @@ margin-bottom: 18px;
 background-position: 50% 50%;
 }
 
+.wp-block-quote
+{
+margin-left: 30px;
+padding-left: 0px;
+}
+
 /* Foot底部样式 */
 .footer{
 	color: gray;
@@ -435,4 +441,11 @@ article ul {
 }
 article ol {
     padding-left: 30px;
+}
+article li {
+	padding-top: 6px;
+}
+
+.enlighter-t-enlighter {
+    margin-left: 36px !important;
 }
